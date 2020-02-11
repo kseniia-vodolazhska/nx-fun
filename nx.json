@@ -17,6 +17,12 @@
     "web-e2e": {
       "tags": [],
       "implicitDependencies": ["web"]
+    },
+    "forecast": {
+      "tags": []
+    },
+    "core": {
+      "tags": []
     }
   }
 }

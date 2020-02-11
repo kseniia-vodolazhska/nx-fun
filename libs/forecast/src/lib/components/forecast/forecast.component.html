@@ -1,0 +1,3 @@
+<p>{{ forecast?.main }}</p>
+<p>{{ forecast?.description}}</p>
+<img *ngIf="forecast" [src]="'http://openweathermap.org/img/wn/' + forecast.icon + '@2x.png'">
